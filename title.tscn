@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3v2d85hpnmjm"]
+
+[ext_resource type="Script" uid="uid://6i4cfaj5thpw" path="res://title.gd" id="1_3aqu7"]
+
+[sub_resource type="Gradient" id="Gradient_4oiya"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_8dj62"]
+gradient = SubResource("Gradient_4oiya")
+
+[node name="title" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3aqu7")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1151.0
+offset_bottom = 646.0
+texture = SubResource("GradientTexture1D_8dj62")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 484.0
+offset_top = 265.0
+offset_right = 671.0
+offset_bottom = 291.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "daniel's very good game"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 447.0
+offset_top = 304.0
+offset_right = 713.0
+offset_bottom = 377.0
+text = "start"
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

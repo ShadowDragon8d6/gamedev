@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5s0s1otoudxd"]
+
+[ext_resource type="Script" path="res://debris.gd" id="1_e8eya"]
+[ext_resource type="Texture2D" uid="uid://cdt052lbwq5gf" path="res://art/pixil-frame-0 (9).png" id="2_r023u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e8eya"]
+size = Vector2(142, 148)
+
+[node name="debris" type="Node2D"]
+position = Vector2(0, 50)
+script = ExtResource("1_e8eya")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, 0)
+scale = Vector2(5, 5)
+texture = ExtResource("2_r023u")
+
+[node name="area2d" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="area2d"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_e8eya")
+
+[connection signal="body_entered" from="area2d" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="area2d" to="." method="_on_area_2d_body_exited"]

@@ -1,0 +1,90 @@
+{
+	"axe man": 
+		["hello there fellow traveler at the end of the world!", 
+		"how do you do on this fine (nuclear) winter day?", 
+		"what's that?", 
+		"there's someone trapped underneath some debris?", 
+		"oh wait what noooo", 
+		"ok anyways", 
+		"...",
+		"you want to help them?", 
+		"and you want my axe?", 
+		"uhhhhhh sure i guess?"
+	],
+		
+	"double jump man": [
+		"thank you so much for saving me!!!", 
+		"but i'm afraid it might've been in vain...", 
+		"this building is filled with an airborne virus", 
+		"and i've already been infected!", 
+		"i don't think i'm going to make it..", 
+		"...", 
+		"wait a minute", 
+		"is that a DOCTOR?????", 
+		"if you can get him, we can get the cure!!!", 
+		"but i'm not alone", 
+		"my 3 other friends are in here with me", 
+		"if you can rescue all of us and get us the cure in time", 
+		"we'll take you in our helicopter and get you to the nearest bunker with supplies", 
+		"the helipad is just upstairs", 
+		"wait, before you go", 
+		"let me teach you a neat trick", 
+		"it's called double jumping", 
+		"just hit the jump button mid air to get an extra boost", 
+		"good luck!"
+	],
+		
+	"hover man": [
+		"brrr t-thank y-you s-s-so much for rescu- AHCHOO", 
+		"s-sorry i dropped my coat while i was up here", 
+		"its way too cold in here to be in a t-shirt and shorts brrrrr", 
+		"...", 
+		"oh my friend sent you?", 
+		"you're my savior!! thank you so much!!", 
+		"i might have some way to repay that kindness..", 
+		"a few years ago i feel into a vat of radioactive cheetahs", 
+		"ever since then i've had the ability to dash", 
+		"whenever you need to, click the shift button", 
+		"go forth adventurer!! and get my friends!!"
+	],
+		
+	"tummy hurt man": [
+		"eruhggg...",
+		"i dont think eating those rations from 20 years ago was worth it bro...",
+		"but those rice and beans were sooo good...",
+		"hmmm?",
+		"you've come to help?",
+		"dang dude...i must be dreaming...",
+		"take me away then homie..!"
+	],
+	
+	"window man": [
+		"AHHHHHHHHH",
+		"HELPPPP",
+		"HELEPLPELEPLPP",
+		"AHH OH MY GOSH",
+		"HELP ME UP",
+		"thank you so so so so so much",
+		"i don't know how much longer i could've held on",
+		"i've never been more grateful to see rusty rebar and crumbling concrete beneath my feet",
+		"you have my thanks, stranger!",
+		"you're getting me and my friends out of here?",
+		"YESSS LETS GOOOOOOO",
+		"you're a real one, random guy"
+	],
+	
+	"doctor": [
+		"woah heyyyy what's up",
+		"...",
+		"the virus?? uhhhh lowkey don't worry about it",
+		"its like only a little dangerous",
+		"like theres only a 50% chance you die yk",
+		"thats like... 1 in a billion odds you die",
+		"...",
+		"am i actually a doctor??",
+		"well duh obviously",
+		"im certified i got my degree in 2020 over zoom",
+		"ok fine do you actually want the cure?",
+		"get me up to that helipad and its all yours"
+	]
+}
